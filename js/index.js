@@ -1,3 +1,22 @@
+
+const alphabet = 'qwertyuiopsdfghjkzxcvbnm';
+var randomString = '';
+
+while (randomString.length < 6) {
+  let alphabetSpl = alphabet.split(' ');
+  let alphabetJoin = alphabet.join('');
+      console.log(randomString);
+      randomString += alphabet.Math.floor(Math.random() * alphabet.length);
+    };
+
+<script src="js/index.js"></script>
+
+
+
+
+
+
+/*
 let message = 'Hello World!'
 alert(message);
 
@@ -177,5 +196,19 @@ arr.forEach(el=> {
 });
     return[odd, even];
 
-  */
+*/
 
+/*
+var animals = ['Cat', 'Frog', 'Elephant', 'Me'];
+  for (let i = 0; i < animals.length; i++) {
+    animals[i] = "Awesome " + animals[i];
+};
+console.log(animals);
+  
+*/
+
+
+
+
+
+  
